@@ -18,6 +18,6 @@ Para ejecutar el juego, simplemente ejecuta el archivo Python en tu entorno. Ase
 ```python juego_piedra_papel_tijera.py```
 
 
---Autor: `[Andres Maldonado]`--
+Autor: `Andres Maldonado`
 
 
