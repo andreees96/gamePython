@@ -2,7 +2,7 @@ import random
 
 ###INGRESO DE OPCIONES###
 def choose_option():
-    options = ('piedra','papel','tijera')
+    options = ('piedra','papel','tijera','salir')
     
     while True:
         try:
@@ -54,7 +54,6 @@ def rungame():
     user_win = 0
     computer_win = 0
     round = 1
-    exit_option = "Salir"
     
     while round <= 5:
         print(f"\n******\nRonda {round}")
@@ -63,7 +62,7 @@ def rungame():
         #llamado a las funciones
         user_option, computer_option = choose_option()
         
-        if user_option == exit_option.lower():
+        if user_option.lower() == "salir":
             break
         
         user_win, computer_win = rules(user_option,computer_option,user_win,computer_win)
