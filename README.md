@@ -1,3 +1,12 @@
+# Como correr el proyecto
+```
+    git clone
+    cd pyproject
+    source venv/Scripts/activate
+    pip install -r requirements.txt
+    pip document.py
+```
+
 # Juego de Piedra, Papel o Tijera
 
 Este es un sencillo juego de "Piedra, Papel o Tijera" implementado en Python. El juego permite al usuario jugar contra la máquina en rondas sucesivas y determinar al ganador al final.
